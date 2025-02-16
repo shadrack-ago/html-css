@@ -59,3 +59,27 @@ a{
     color: #f0f8ff;
     text-decoration: none;
 }
+.video-title{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.video-stats{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.video-author{
+    font-family: arial;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+
+}
+.video-paragraph{
+    font-family: Arial;
+    font-size: small;
+    /* font-weight: bold; */
+}
