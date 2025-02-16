@@ -73,13 +73,35 @@ a{
 }
 .video-author{
     font-family: arial;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 5px;
     font-size: 14px;
+    margin-bottom: 0px;
 
 }
 .video-paragraph{
     font-family: Arial;
     font-size: small;
     /* font-weight: bold; */
+    line-height: 20px;
+    margin-top: 0px;
+}
+.apple{
+    background-color: rgba(229, 37, 37, 0.731);
+    height: 50px;
+    /* width: 300px; */
+    color: #f0f8ff;
+    padding-top: 16px;
+    text-align: center;
+    font-size: 18px;
+
+}
+#link{
+    transition-duration: 2s;
+    text-decoration: underline;
+}
+#link:hover{
+    text-decoration: none;
+    box-shadow: 5px 5px 6px rgba(7, 7, 7, 0.824);
+
 }
