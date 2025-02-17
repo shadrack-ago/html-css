@@ -1,10 +1,65 @@
 .thumbnail{
     width: 300px;
-    
+   
 }
 .search-bar{
     font-size: 20px;
     padding-top:4px ;
     padding-bottom: 4px;
     padding-left: 4px;
+    margin-bottom: 8px;
+    display: block;
+
+
+}
+p{
+    font-family: arial;
+}
+.video-title{
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.video-author{
+    font-size: 14px;
+    margin-top: 3px;
+
+}
+.video-stats{
+margin-top: 1px;
+font-size: 14px;
+}
+
+
+.vide-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top ;
+    margin-right: 10px;
+}
+
+.channel-pictures{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+    margin-right: 5px;
+
+}
+.video-info{
+    display: inline-block;
+    width: 300px;
+    margin-left: 5px;
+    margin-top: 0px;
+
+}
+
+
+.channels{
+    border-radius: 100px;
+    width: 40px;
+    
+}
+.lower-div{
+    display: flex;
+
 }
