@@ -14,21 +14,36 @@
             div 2
         </div>
     </div>
+    <!-- styling each div element independently -->
+    
     <div style="display: grid; grid-template-columns: 100px 100px 200px; margin-top: 8px;">
         <div style="background-color: aqua;">
             100px
         </div>
         <div style="background-color: rgb(243, 26, 26);">
-            100px
+            100px Lorem, ipsum dolor sit 
         </div>
         <div style="background-color: aqua;">200px</div>
     </div>
+    <!-- for div element to take entire space we use Fr property -->
     <div style="display: grid; grid-template-columns: 100px 1fr; margin-top: 8px;">
         <div style="background-color: aqua;">
             div1
         </div>
         <div style="background-color: rgb(243, 26, 26);">
-            div2
+            1fr
+        </div>
+    </div>
+    <!-- testing effect of several fr elements in a div -->
+    <div style="display: grid; grid-template-columns: 100px 1fr 1.5fr; margin-top: 8px;">
+        <div style="background-color: aqua;">
+            div1
+        </div>
+        <div style="background-color: rgb(243, 26, 26);">
+            1fr
+        </div>
+        <div style="background-color: aqua;">
+            div1
         </div>
     </div>
 
