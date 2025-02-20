@@ -1,15 +1,14 @@
+body{
+    margin: 0;
+    
+}
+
+
 .thumbnail{
     width: 100%;;
    
 }
-.search-bar{
-    font-size: 20px;
-    padding-top:4px;
-    padding-bottom: 4px;
-    padding-left: 4px;
-    margin-bottom: 8px;
-    display: block;
-}
+
 p{
     font-family: arial;
     margin-top: 0;
