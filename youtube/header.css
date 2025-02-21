@@ -13,7 +13,6 @@
     height: 60px;
     background-color: white;
     border-bottom-width: 1px;
-    bot
     
 }
 .left-section{
@@ -94,4 +93,40 @@
 .user-picture{
   height: 30px;
   border-radius: 15px;
+}
+.sidebar{
+  /* background-color: bisque; */
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  width: 74px;
+  /* display: grid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.home-icon{
+  height: 40px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.explore-icon{
+  height: 40px;
+}
+.subscriptions-icon{
+  height: 40px;
+}
+
+.originals-icon{
+  height: 40px;
+}
+.youtube-music-icon{
+  height: 40px;
+}
+.library-icon{
+  height: 40px;
 }
