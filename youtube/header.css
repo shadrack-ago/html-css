@@ -13,6 +13,7 @@
     height: 60px;
     background-color: white;
     border-bottom-width: 1px;
+    z-index: 100;
     
 }
 .left-section{
@@ -94,39 +95,36 @@
   height: 30px;
   border-radius: 15px;
 }
-.sidebar{
-  /* background-color: bisque; */
+.sidebar {
   position: fixed;
-  top: 60px;
-  bottom: 0;
   left: 0;
-  width: 74px;
-  /* display: grid; */
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+}
+
+.sidebar-link {
+  height: 74px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
-
-}
-.home-icon{
-  height: 40px;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  flex-direction: column;
+  cursor: pointer;
 }
 
-.explore-icon{
-  height: 40px;
-}
-.subscriptions-icon{
-  height: 40px;
+.sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
 }
 
-.originals-icon{
-  height: 40px;
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
 }
-.youtube-music-icon{
-  height: 40px;
-}
-.library-icon{
-  height: 40px;
+
+.sidebar-link div {
+  font-family: Roboto, Arial;
+  font-size: 10px;
 }
