@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    height: 3000px;
+    height: 2500px;
     
 }
 .video-preview{
@@ -24,7 +24,8 @@ p{
 .video-title{
     font-weight: 550;
     font-size: 14px;
-    margin-bottom: 4px;  
+    line-height: 20px;
+    margin-bottom: 10px;  
 
 }
 .video-author{
